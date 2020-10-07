@@ -158,7 +158,6 @@ updateButton.addActionListener(new ActionListener()
                         JOptionPane.showMessageDialog(frame,output);
                         System.out.println("Object was successfully created");
                         db.addBook(book);
-                        System.out.println(db.showBooks());
                     }
                     else
                     {
